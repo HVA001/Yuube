@@ -1,0 +1,175 @@
+ @charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Allura&family=Poppins&display=swap');
+h1,h2,h3,h4,h5,h6{font-family: 'Abhaya Libre', serif;}
+p,body{font-family: 'Poppins', sans-serif;}
+a{ color:#666}a:hover{ color: #8FA83B; text-decoration: none}
+.title-alluya{font-family: 'Allura', cursive; font-size: 64px}
+.navbar .nav-item .nav-link{ text-transform: uppercase; font-weight: 500; padding: 5px 25px; color:#333}
+.navbar .nav-item .nav-link:hover{ background-color: #8FA83B; color:#fff; border-radius: 15px}
+.navbar .nav-item .dropdown-item{ border-bottom: 1px solid #FF91AF; width:80%; margin: auto; text-align: center; font-weight: 500}
+.navbar .nav-item .dropdown-item:hover{background-color:#FF91AF}
+.mega-menu{ width: 800%; left: -400%}
+.page-title{ background: url("../IMAGES/Blog-title.jpg") no-repeat center; height: 300px;}
+
+.bg-ts{ background:rgba(255,255,255,0.7)}
+aside .nav-link{ background: url("../IMAGES/nav-link-dot.png") no-repeat 10px center ;
+border-bottom: 1px solid #ccc ;color:#666;  padding: 15px 30px}
+aside .nav-link-pink{ background: url("../IMAGES/nav-link-dot-pink.png") no-repeat 10px center ;
+border-bottom: 1px solid #ccc ;color:#666;  padding: 15px 30px}
+aside .nav-link-orange{ background: url("../IMAGES/nav-link-dot-orange.png") no-repeat 10px center ;
+border-bottom: 1px solid #ccc ;color:#666;  padding: 15px 30px}
+aside .nav-link-blue{ background: url("../IMAGES/nav-link-dot-blue.png") no-repeat 10px center ;
+border-bottom: 1px solid #ccc ;color:#666;  padding: 15px 30px}
+aside .nav-link-brown{ background: url("../IMAGES/nav-link-dot-brown.png") no-repeat 10px center ;
+border-bottom: 1px solid #ccc ;color:#666;  padding: 15px 30px}
+aside .nav-link:hover{ color:#FF91AF}
+.size{ width: 50px ; height: 50px; line-height: 50px; text-align: center}
+aside .nav-link-pink:hover{ color:#FFB22F}
+.size{ width: 50px ; height: 50px; line-height: 50px; text-align: center}
+aside .nav-link-orange:hover{ color:#5EB8C0}
+.size{ width: 50px ; height: 50px; line-height: 50px; text-align: center}
+aside .nav-link-blue:hover{ color:#FFF392}
+.size{ width: 50px ; height: 50px; line-height: 50px; text-align: center}
+aside .nav-link-brown:hover{ color:#8FA83B}
+.size{ width: 50px ; height: 50px; line-height: 50px; text-align: center}
+@media (max-width:768px){
+	.navbar .nav-item .dropdown-item{text-align: left;width:98%;}
+	.mega-menu{ width: 100%; left: 0}
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.top{top:0}
+.left{left: 0}
+.right{right: 0}
+.bottom{bottom: 0}
+.center{left:50%}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);}
+.horizontal-center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);}
+.rotate-2{transform: rotate(-2deg)}
+
+.nen-full{ 
+	background-image: url("../IMAGES/topLeft.png"), url("../IMAGES/rightBottom.png");
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	min-height: 700px;}
+.nen2-full{ 
+	background-image: url("../IMAGES/top-left2.png"), url("../IMAGES/right-bottom2.png");
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	min-height: 700px}
+.nen3-full{
+	background-image: url("../IMAGES/service/Group 92.png");
+	background-position: center top;
+	background-repeat: no-repeat}
+.nen4-full{
+	background-image: url("../IMAGES/flavour/image 10 (1).png"),url("../IMAGES/flavour/image 10.png");
+	background-position: center left,center left;
+	background-repeat: no-repeat,no-repeat}
+.nen5-full{
+	background-image: url("../IMAGES/our-prices/Group 93.png");
+	background-position: center top;
+	background-repeat: no-repeat}
+.nen6-full{
+	background-image: url("../IMAGES/our-client/image 19.png"),url("../IMAGES/our-client/image 18.png");
+	background-position: center left, center right;
+	background-repeat: no-repeat,no-repeat}
+.nen7-full{
+	background-image: url("../IMAGES/contact/Group 94.png");
+	background-position: center top;
+	background-repeat: no-repeat}
+.nen8-full{
+	background-image: url("../IMAGES/our-staff/6 1.png"),url("../IMAGES/our-staff/5 6.png");
+	background-position: top left, top right;
+	background-repeat: no-repeat,no-repeat;
+}
+.nen9-full{
+	background-image: url("../IMAGES/about/About-us-section-1.png");
+	background-position: center top;
+	background-repeat: no-repeat}
+.nen10-full{
+	background-image: url("../IMAGES/about/Mask Group.png");
+	background-position: center top;
+	background-repeat: no-repeat;}
+
+.text-color1{color: #909090}
+.text-color2{color: #5EB8C0}
+.text-color3{color: #FF91AF}
+.text-color4{color: #FFDEA6}
+
+.index1{z-index: 1}
+.index2{z-index: 2}
+.index3{z-index: 3}
+.index4{z-index: 4}
+.index5{z-index: 5}
+
+.bordersolid{border: 1px solid #909090}
+.bordersolid2{border: 1px solid #8FA83B}
+.bordersolid2:hover{border: 1px solid #FF91AF}
+.bordersolid2:hover .button10{background: #FF91AF}
+
+
+main .date{ background: url("../IMAGES/Date-icon.png") no-repeat 10px center ;
+color:#666;  padding: 0px 30px}
+main .user{ background: url("../IMAGES/User-icon.png") no-repeat 10px center ;
+color:#666;  padding: 0px 30px}
+main .nametag{ background: url("../IMAGES/Nametag-icon.png") no-repeat 10px center ;
+color:#666;  padding: 0px 30px}
+main .comment{ background: url("../IMAGES/Comment-icon.png") no-repeat 10px center ;
+color:#666;  padding: 0px 30px}
+main .button1{background: #9C0134}
+main .button1:hover{background: #FF91AF}
+main .button2{background: #A55E03}
+main .button2:hover{background: #FF91AF}
+main .button3{background: #4D5F02}
+main .button3:hover{background: #FF91AF}
+main .button4{background: #FF91AF}
+main .button4:hover{background: #FF91AF}
+main .button5{background: #FFDEA6}
+main .button5:hover{background: #FF91AF}
+main .button6{background: #FFB22F}
+main .button6:hover{background: #FF91AF}
+main .button7{background: #5EB8C0}
+main .button7:hover{background: #8FA83B;border: none}
+main .button8{border: 1px solid #5EB8C0}
+main .button8:hover{background: #8FA83B;border: none;padding: 2rem ,2rem}
+main .button9{background: #672F0A}
+main .button9:hover{background: #FF91AF}
+main .button10{background: #8FA83B}
+main .button10:hover{background: #FF91AF}
+main .button11{background: #A46F3B}
+main .button11:hover{background: #FF91AF}
+main .image-text .card-img-overlay{background-color: #FF91AF;opacity: 0}
+main .image-text:hover .card-img-overlay{opacity: 0.8}
+main .color-hover:hover{color: #FF91AF}
+main .trading-box .card-img-overlay{background-color: #FFFFFF;opacity: 0}
+main .trading-box:hover .card-img-overlay{opacity: 0.8}
+
+
+footer input{width: 75%;padding: 5px 0;border-radius: 0.75rem 0 0 0.75rem;border: 1px solid #555;;outline: none}
+footer .icon {vertical-align: middle;padding: 0.375rem 0.375rem;border-radius: 1.5rem;}
+footer .icon-facebook {background-color: #1B7BEB;}
+footer .icon-instagram {background-color: #EC105F;}
+footer .icon-twitter {background-color: #1BD2EB;}
+footer .icon-google {background-color: #E82929;}
